@@ -24,7 +24,7 @@ async function getQuote() {
     setLoading(false);
   } catch (error) {
     console.log("Error getting quotes", error);
-    // getQuote();
+    getQuote();
   }
 }
 
