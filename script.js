@@ -24,7 +24,7 @@ async function getQuote() {
     setLoading(false);
   } catch (error) {
     console.log("Error getting quotes", error);
-    getQuote();
+    // getQuote();
   }
 }
 
@@ -59,4 +59,4 @@ function setLoading(loading) {
 }
 
 //get quote on page load
-getQuote();
+window.onload = getQuote();
