@@ -11,7 +11,7 @@ twitterBtn.addEventListener("click", tweetQuote);
 
 //function to fetch quotes from api
 async function getQuote() {
-  const proxyUrl = "http://corsthat.herokuapp.com/";
+  const proxyUrl = "https://corsthat.herokuapp.com/";
   const apiUrl =
     "http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json";
   try {
